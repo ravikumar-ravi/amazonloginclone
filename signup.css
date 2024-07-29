@@ -4,6 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    image-rendering: optimizeSpeed;
 }
 .main-container{
     width: 100%;
@@ -77,7 +78,7 @@ button{
     border: none;
     border-radius: 10px;
     color: black;
-    background-color:#ffd814
+    background-color:#0f85c9
 }
 
  .inputs input[type="number"]{
@@ -145,5 +146,10 @@ color: rgba(0, 0, 0, 0.792);
     height: 100px;
 }
 button:hover{
-    background-color: #e4be00;
+    background-color: #0d8ab1;
+}
+
+
+.clicks{
+    background-color: #0d8ab1;
 }
